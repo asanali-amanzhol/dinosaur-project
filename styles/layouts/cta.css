@@ -1,0 +1,48 @@
+.cta__container {
+    background-color: var(--color-text-accent);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../images/cta-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 32px;
+    gap: 12px;
+}
+
+.cta__title {
+    line-height: 0.95;
+    color: black;
+    text-align: center;
+}
+
+.cta__description {
+    color: black;
+    text-align: center;
+}
+
+.cta__btn {
+    font-weight: 100;
+    height: 56px;
+    width: 100%;
+    background-color: var(--color-bg-main)
+}
+
+.cta__right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media (min-width: 1024px) {
+    .cta__container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .cta__title {
+        font-size: 56px;
+    }
+}

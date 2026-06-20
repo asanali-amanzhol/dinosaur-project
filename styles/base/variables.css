@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(../../fonts/Poppins.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../../fonts/Inter.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "PoppinsB";
+    src: url(../../fonts/Poppins-Bold.woff2) format(woff2);
+}
+
+:root {
+    --color-bg-main: #0E0E0E;
+    --color-bg-card: #161616;
+
+    --color-text-main: #FFFFFF;
+    --color-text-secondary: #A0A0A0;
+    --color-text-accent: #D9FF3F;
+
+    --color-hover-accent: #C3F200;
+
+    --color-border: rgba(255,255,255,0.08);
+
+
+    --font-family-title: "PoppinsB", sans-serif;
+    --font-family-text: "Inter", sans-serif;
+
+    --grid-gap: 24px;
+}

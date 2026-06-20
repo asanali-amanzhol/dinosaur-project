@@ -1,0 +1,117 @@
+.hero__title {
+    font-size: 52px;
+    line-height: 0.95;
+}
+
+.hero {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    z-index: 200;
+    flex-direction: column;
+    gap: var(--grid-gap);
+    background-clip: padding-box;
+    border-bottom: 2px solid #353535;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-gap);
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-gap);
+    z-index: 10;
+}
+
+.hero__br-phone {
+    display: block;
+}
+
+.hero__br-pc {
+    display: none;
+}
+
+.hero__description {
+    font-size: 18px;
+}
+
+.hero__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.hero__img img {
+  position: relative;
+  width: 100%;
+  display: block;
+  height: auto;
+  transform: scale(1.3);
+  top: 20px;
+}
+
+@media (min-width: 1024px) {
+    .hero__br-phone {
+        display: none;
+    }
+
+    .hero__br-pc {
+        display: block;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: flex-end;
+        border-bottom: 2px solid #161616;
+    }
+
+    .hero__left {
+        width: 60%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .hero__img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 40%;
+        position: static;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        overflow: visible;
+        border: none;
+        z-index: -100;
+        margin-bottom: -24px;
+    }
+
+    .hero__img img {
+        position: relative;
+        width: 100%;
+        display: block;
+        height: auto;
+        transform: scale(1.7);
+        top: 0;
+        transform-origin: bottom right;
+        right: -100px;
+    }
+
+    .hero__title {
+        font-size: 72px;
+        line-height: 0.95;
+    }
+
+    .hero__buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 12px
+    }
+}

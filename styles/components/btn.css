@@ -1,0 +1,31 @@
+.btn {
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    background: transparent;
+    background: none;
+    color: var(--color-text-main);
+    font-family: var(--font-family-text);
+    height: 56px;
+    outline: none;
+    box-shadow: none;
+    font-weight: 600;
+    padding: 14px 24px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-accent {
+    border: none;
+    background-color: var(--color-hover-accent);
+    color: var(--color-bg-main);
+    font-family: var(--font-family-text);
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-accent:hover {
+    transform: translateY(-2px);
+}

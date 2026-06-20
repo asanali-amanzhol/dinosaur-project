@@ -1,0 +1,12 @@
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo__accent-letter {
+    color: #D9FF3F;
+}
